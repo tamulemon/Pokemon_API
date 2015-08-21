@@ -1,0 +1,1 @@
+Show 2 pokemons. Start with id = 1. clicking the button will randomrize them.
