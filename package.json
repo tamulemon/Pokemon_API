@@ -1,0 +1,23 @@
+{
+  "name": "pokemon-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify js/*.jsx -o build/bundle.js"
+  },
+  "author": "Meng Chen",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "marked": "^0.3.5",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}
