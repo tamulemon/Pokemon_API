@@ -58,8 +58,8 @@ var Pokemon = module.exports = React.createClass({
 		console.log('this.state.pokemon', this.state.pokemon);
 		return (
 			<div>
-			<h2>{this.state.pokemon.name}</h2>
-				<p>{this.state.pokemon.hp}</p>
+			<h2>Name: {this.state.pokemon.name}</h2>
+			<p>Hp: {this.state.pokemon.hp}</p>
 			<img src={this.state.pokemon.imgUri} alt="pokemon image" height="150" width="150" />
 			<button onClick={this.randomrize}>Randomrize Pokemon</button> 
 			</div>
